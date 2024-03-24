@@ -251,7 +251,7 @@ export default function Home() {
 
 function Section({ children }: { children: ReactNode }) {
   return (
-    <section className="p-4 sm:p-12 border-x w-screen max-w-prose m-auto box-content">
+    <section className="p-4 sm:p-12 border-x lg:w-screen max-w-prose m-auto box-content">
       {children}
     </section>
   );

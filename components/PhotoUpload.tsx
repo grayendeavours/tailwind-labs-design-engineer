@@ -45,7 +45,10 @@ export function PhotoUpload() {
         <li>
           1x Hidden input
           <ul className="ml-6 text-gray-600 pl-2 border-l-4 border-gray-200">
-            <li>Registered with <code className="font-mono text-green-700">react-hook-form</code></li>
+            <li>
+              Registered with{" "}
+              <code className="font-mono text-green-700">react-hook-form</code>
+            </li>
           </ul>
         </li>
         <li>
@@ -56,7 +59,10 @@ export function PhotoUpload() {
         </li>
       </ul>
 
-      <div style={{ perspective: 1000 }} className="absolute opacity-20 right-0 top-8 sm:top-0 sm:opacity-80 sm:relative z-0">
+      <div
+        style={{ perspective: 1000 }}
+        className="absolute opacity-20 right-0 top-8 sm:top-0 sm:opacity-80 sm:relative z-0"
+      >
         <div
           style={{ transform: "rotate3d(0.2, 1, 0, 25deg)" }}
           className="p-2 border-4 rounded-sm border-dashed border-gray-300 w-72 h-72"
